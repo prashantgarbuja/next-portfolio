@@ -1,7 +1,7 @@
 {
   "main": {
     "name": "Prashant Garbuja",
-    "shortDesc": "I focus on developing user-friendly web applications that meet the client's requirements, with attention to detail, scalability, and performance.",
+    "shortDesc": "I focus on developing secure spring based applications that meet the client's requirements, with attention to detail, scalability, and performance.",
     "titles": [
       "Java Development",
       "Spring Development",
@@ -9,20 +9,21 @@
       "Backend Development",
       "App Development"
     ],
-    "heroImage": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
+    "heroImage": "https://res.cloudinary.com/dl08njl0f/image/upload/v1698162032/ava_livlxf.png",
     "techStackImages": [
-      "https://img.icons8.com/color/144/000000/material-ui.png",
-      "https://img.icons8.com/color/144/000000/html-5--v1.png",
-      "https://img.icons8.com/color/144/000000/redux.png",
-      "https://img.icons8.com/color/144/000000/chakra-ui.png"
+      "https://img.icons8.com/color/144/000000/spring-logo.png",
+      "https://img.icons8.com/color/144/000000/java-coffee-cup-logo--v1.png",
+      "https://img.icons8.com/color/144/000000/python.png",
+      "https://img.icons8.com/color/144/000000/c-sharp-logo-2.png",
+      "https://img.icons8.com/color/144/000000/html-5--v1.png"
     ]
   },
   "about": {
-    "aboutImage": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
-    "aboutImageCaption": "< Creating something interesting 🚀/>",
+    "aboutImage": "https://res.cloudinary.com/dl08njl0f/image/upload/v1698161249/2022-08-13-20-51-40-956_tpmqk9.jpg",
+    "aboutImageCaption": "< Create interesting stuff 🚀/>",
     "title": "Java Developer",
     "about": "I am a Software developer based in Sydney, Australia. Passionate about technology since childhood, my affinity for computer games ignited my curiosity. Configuring PC settings and devising workarounds to play new games cultivated my passion. My interests extend to reading, budget-dependent travel, and embracing the unfamiliar—a contrast to my introverted childhood. In the tech realm, coding is my canvas. Beginning with C and C++, I progressed to languages like C#, Java, and Python. Java's verbosity maintains my core knowledge. A Bachelor's in Computer Science Engineering in Bangalore fulfilled my dual goals of exploration and tech pursuit. Currently in Sydney, I completed a master's in Information Technology. Engaging in tech seminars and Java meetups broadens my connections with like-minded individuals. Respect for considerate people guides my interactions. Please feel free to contact me to know more about me. :)",
-    "callUrl": "",
+    "callUrl": "https://contact.prashantgarbuja.com/",
     "resumeUrl": "https://api.prashantgarbuja.com/"
   },
   "socials": [
@@ -167,75 +168,193 @@
   ],
   "projects": [
     {
-      "name": "Project Title",
-      "techstack": "HTML5, CSS3, JavaScript, jQuery",
-      "category": "MERN Stack",
-      "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210114225740/10-Best-Web-Development-Project-Ideas-For-Beginners-in-2021.png",
+      "name": "Movie API Fusion",
+      "techstack": "Spring-Boot, Java, Postgres, MongoDB, Keycloak(PKCE OAuth 2.0), OMDB API, ReactJS",
+      "category": "Spring-Boot",
+      "image": "https://res.cloudinary.com/dl08njl0f/image/upload/v1698163956/movie_api_fusion_ydj1zg.png",
       "links": {
-        "code": "",
+        "code": "https://github.com/prashantgarbuja/movie-api-fusion",
         "video": "",
         "visit": ""
       }
     },
     {
-      "name": "Project Title",
-      "techstack": "Flutter, Dart, Firebase",
-      "category": "Flutter",
-      "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210114225740/10-Best-Web-Development-Project-Ideas-For-Beginners-in-2021.png",
+      "name": "ElasticSearch Amazon Products",
+      "techstack": "Spring-Boot, Java, ElasticSearch, Test container",
+      "category": "Spring-Boot",
+      "image": "https://res.cloudinary.com/dl08njl0f/image/upload/v1698166828/ElasticSearch_nfgl1j.png",
       "links": {
-        "code": "",
+        "code": "https://github.com/prashantgarbuja/Elasticsearch-Amazon-Products",
         "video": "",
         "visit": ""
       }
     },
     {
-      "name": "Project Title",
-      "techstack": "PHP, MySQL, HTML5, CSS3, Bootstrap, JavaScript",
-      "category": "LAMP Stack",
-      "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210114225740/10-Best-Web-Development-Project-Ideas-For-Beginners-in-2021.png",
+      "name": "Kafka Amazon Products",
+      "techstack": "Spring-Boot, Java, Kafka, Apache Maven, Docker, Git",
+      "category": "Spring-Boot",
+      "image": "https://res.cloudinary.com/dl08njl0f/image/upload/v1698166721/Kafka_b4wyhn.png",
       "links": {
-        "code": "",
+        "code": "https://github.com/prashantgarbuja/Amazon-Products-Kafka-SpringBoot",
         "video": "",
         "visit": ""
+      }
+    },
+    {
+      "name": "Resume API",
+      "techstack": "Spring-Boot, Java, JPA, Thymeleaf, Hibernate, Swagger OpenAPI, Supabase(Postgres)",
+      "category": "Spring-Boot",
+      "image": "https://res.cloudinary.com/dl08njl0f/image/upload/v1698165885/ResumeAPI_r6ulcf.png",
+      "links": {
+        "code": "https://github.com/prashantgarbuja/Resume-API",
+        "video": "",
+        "visit": "https://api.prashantgarbuja.com/"
+      }
+    },
+    {
+      "name": "myChat",
+      "techstack": "Java, Android Studio, Firebase",
+      "category": "Android Application",
+      "image": "https://res.cloudinary.com/dl08njl0f/image/upload/v1698168411/myChat_n4dppy.png",
+      "links": {
+        "code": "https://github.com/prashantgarbuja/mychat",
+        "video": "",
+        "visit": ""
+      }
+    },
+    {
+      "name": "Auto Tweet Quote",
+      "techstack": "Python, Twitter API, Quotable API, Github Action",
+      "category": "Misc",
+      "image": "https://res.cloudinary.com/dl08njl0f/image/upload/v1698166130/AutoTweet_eehrkn.png",
+      "links": {
+        "code": "https://github.com/prashantgarbuja/Auto_tweet",
+        "video": "",
+        "visit": "https://twitter.com/garbuja_p"
+      }
+    },
+    {
+      "name": "Web Scraper",
+      "techstack": "Python, Selenium, BeautifulSoup",
+      "category": "Misc",
+      "image": "https://res.cloudinary.com/dl08njl0f/image/upload/v1698165416/GoogleTrends_njk9ag.png",
+      "links": {
+        "code": "https://github.com/prashantgarbuja/web_scrap",
+        "video": "",
+        "visit": ""
+      }
+    },
+    {
+      "name": "Musiclify",
+      "techstack": "Spring-Boot, Java, Spotify API, Maven, Docker",
+      "category": "Spring-Boot",
+      "image": "https://res.cloudinary.com/dl08njl0f/image/upload/v1698163947/musiclify_tprfyp.png",
+      "links": {
+        "code": "https://github.com/prashantgarbuja/musiclify",
+        "video": "",
+        "visit": "https://musiclify.prashantgarbuja.com/"
       }
     }
   ],
   "educations": [
     {
-      "institute": "XYZ School | CBSE",
-      "degree": "HSC Science",
-      "duration": "2014 - 2016"
+      "institute": "VTU",
+      "degree": "Bachelor of Computer Science Engineering",
+      "duration": "2013 - 2017",
+      "desc": [
+        "Achieved First Class with Distinction",
+        "Worked on Text Minning Project using Java",
+        "Developed a game using C++ and OpenGL"
+      ]
     },
     {
-      "institute": "XYZ College Of Engineering",
-      "degree": "B.Tech CSE",
-      "duration": "2016 - 2020",
+      "institute": "ACU | KOI",
+      "degree": "Master of Information Technology",
+      "duration": "2019 - 2021",
       "desc": [
-        "Pursuing IT Engineering course from ABC University",
-        "Worked on web application development using HTML, CSS, and JavaScript, designing a database system using SQL",
-        "Familiar with software development methodologies and project management practices, including Agile and Waterfall methodologies."
+        "Acquired High Distinction in Application Development with 98% marks using Python",
+        "Specialized on Cyber Security",
+        "Familiar with software development methodologies and project management practices, including Agile and Waterfall methodologies.",
+        "Won first place in Capstone Project",
+        "Developed a Facebook Instant Game using C# and Unity"
       ]
     }
   ],
   "experiences": [
     {
-      "company": "ABC Tech Solutions",
-      "position": "Web Developer",
-      "duration": "2020 -2022",
+      "company": "Sagar Travel & Tours",
+      "position": "Ticketing Officer",
+      "duration": "2011 - 2012",
       "desc": [
-        "Assisted with design and development of project.",
-        "Worked on building the product from scratch and built multiple dashboards.",
-        "Skills: HTML · CSS · JavaScript · TailwindCSS · ReactJS · NodeJS · MySQL · REST APIs"
+        "Manage tickets and bookings.",
+        "Providing customer support.",
+        "Providing online assistance with booking flights and hotels.",
+        "Organize, schedule and manage meetings."
       ]
     },
     {
-      "company": "XYZ Tech Solutions",
-      "position": "Web Developer",
-      "duration": "2022 - present",
+      "company": "Siddhartha Bank Limited",
+      "position": "IT Assistant",
+      "duration": "2017 - 2018",
       "desc": [
-        "Assisted with design and development of project.",
-        "Worked on building the product from scratch and built multiple dashboards.",
-        "Skills: HTML · CSS · JavaScript · TailwindCSS · ReactJS · NodeJS · MySQL · REST APIs"
+        "Installing and configuring computer hardware, software, systems, networks, printers, and scanners.",
+        "Monitoring and maintaining computer systems and networks.",
+        "Responding in a timely manner to service issues and requests.",
+        "Providing technical support across the company (this may be in person or over the phone).",
+        "Setting up accounts for new users.",
+        "Repairing and replacing equipment as necessary."
+      ]
+    },
+    {
+      "company": "Social Welfare Council",
+      "position": "IT Officer",
+      "duration": "2018 - 2019",
+      "desc": [
+        "Manage the overall technology infrastructure for the Organization including planning, implementation, and management of the software applications and hardware infrastructure that support operations, liaising as relevant with technology service providers.",
+        "Support and contribute to IT-related tasks or projects through the implementation of appropriate technologies and solutions",
+        "Manage support services for the Organization’s IT systems, platforms, and products, including management of IT support technician(s), communicating job expectations, and appraising performance as appropriate.",
+        "Develop and update IT processes and procedures, and ensure they are properly documented.",
+        "Support the procurement process for IT equipment and services.",
+        "Manage Information of the organization and update it on website following the chain of command."
+      ]
+    },
+    {
+      "company": "Paxform Pty Ltd.",
+      "position": "Software Developer",
+      "duration": "2022 - 2022",
+      "desc": [
+        "Daily stand-up meeting with the team to discuss the progress of the project and the tasks for the day.",
+        "Implemented agile methodology to develop the project.",
+        "Test Drive Development (TDD) approach to develop the project.",
+        "Developed different test cases to test the application.",
+        "Dealt with Jira tickets to fix the bugs and add new features to the application.",
+        "Skills: Flutter  · Html · Unit Testing · Agile methodology · TDD · Jira"
+      ]
+    },
+    {
+      "company": "ND&Co IT Consultants",
+      "position": "Application Developer",
+      "duration": "2021 -2023",
+      "desc": [
+        "Worked with clients – DCS, Blackmore and icare, that leverage ServiceNow platform.",
+        "ServiceNow supports tasks that involve integration, mid-server maintenance, and general support.",
+        "Developing catalogue item.",
+        "Platform upgrades and patching.",
+        "Leveraging ServiceNow platform to automate business processes.",
+        "Automated Testing Framework (ATF), Business rules, UI Policy, UI Actions, Virtual Agent, etc",
+        "ITSM implementor – Request, Service Catalog, Incident, Problem, Change and Release management.",
+        "Skills: ServiceNow CAD · ServiceNow CSA · JavaScript · ATF · Flow Designer · ITSM · Agile methodology · Jira"
+      ]
+    },
+    {
+      "company": "Freelancer",
+      "position": "Software Developer",
+      "duration": "2023 - present",
+      "desc": [
+        "Diverse Projects: Developed a web application using Spring Boot and ReactJS, a mobile application using Android Studio, and a desktop application using C# and Unity.",
+        "Worked with Clients",
+        "Focus on personal projects.",
+        "Skills: HTML · CSS · JavaScript · Java · Spring · Hibernate · Databases · REST APIs"
       ]
     }
   ]
