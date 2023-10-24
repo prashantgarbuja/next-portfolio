@@ -1,9 +1,11 @@
 {
   "main": {
-    "name": "Jhon Doe",
+    "name": "Prashant Garbuja",
     "shortDesc": "I focus on developing user-friendly web applications that meet the client's requirements, with attention to detail, scalability, and performance.",
     "titles": [
-      "Frontend Development",
+      "Java Development",
+      "Spring Development",
+      "API Developement",
       "Backend Development",
       "App Development"
     ],
@@ -17,28 +19,28 @@
   },
   "about": {
     "aboutImage": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
-    "aboutImageCaption": "< I build stuff 🚀/>",
-    "title": "Full Stack Developer",
-    "about": "I am a Full-Stack developer based in Pune, India. I'm an Information Technology undergraduate from SPPU, and my journey in web development began during my first year of college. I'm passionate about creating beautiful, functional, and user-friendly websites and applications, and I'm constantly pushing myself to learn and grow as a developer. Love building full-stack clones and side projects.",
+    "aboutImageCaption": "< Creating something interesting 🚀/>",
+    "title": "Java Developer",
+    "about": "I am a Software developer based in Sydney, Australia. Passionate about technology since childhood, my affinity for computer games ignited my curiosity. Configuring PC settings and devising workarounds to play new games cultivated my passion. My interests extend to reading, budget-dependent travel, and embracing the unfamiliar—a contrast to my introverted childhood. In the tech realm, coding is my canvas. Beginning with C and C++, I progressed to languages like C#, Java, and Python. Java's verbosity maintains my core knowledge. A Bachelor's in Computer Science Engineering in Bangalore fulfilled my dual goals of exploration and tech pursuit. Currently in Sydney, I completed a master's in Information Technology. Engaging in tech seminars and Java meetups broadens my connections with like-minded individuals. Respect for considerate people guides my interactions. Please feel free to contact me to know more about me. :)",
     "callUrl": "",
-    "resumeUrl": ""
+    "resumeUrl": "https://api.prashantgarbuja.com/"
   },
   "socials": [
     {
       "icon": "FaLinkedin",
-      "link": "https://www.linkedin.com/in/jhon-doe"
+      "link": "https://www.linkedin.com/in/prashant-garbuja"
     },
     {
       "icon": "FaGithub",
-      "link": "https://github.com/jhon-doe"
+      "link": "https://github.com/prashantgarbuja"
     },
     {
       "icon": "FaInstagram",
-      "link": "https://www.instagram.com/jhondoe"
+      "link": "https://www.instagram.com/prashant.waitforit.luffy"
     },
     {
       "icon": "FaTwitter",
-      "link": "https://twitter.com/jhondoe"
+      "link": "https://twitter.com/garbuja_p"
     }
   ],
   "skills": [
@@ -48,13 +50,118 @@
       "category": "Frontend"
     },
     {
-      "name": "Firebase",
-      "image": "https://img.icons8.com/color/144/null/firebase.png",
+      "name": "ReactJs",
+      "image": "https://img.icons8.com/color/144/null/react-native.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "Bootstrap",
+      "image": "https://img.icons8.com/color/144/null/bootstrap.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "Html",
+      "image": "https://img.icons8.com/color/144/null/html-5.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "Css",
+      "image": "https://img.icons8.com/color/144/null/css3.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "AngularJs",
+      "image": "https://img.icons8.com/color/144/null/angularjs.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "JQuery",
+      "image": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/null/external-jquery-is-a-javascript-library-designed-to-simplify-html-logo-shadow-tal-revivo.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "Java",
+      "image": "https://img.icons8.com/color/144/null/java-coffee-cup-logo--v1.png",
+      "category": "Backend"
+    },
+    {
+      "name": "Python",
+      "image": "https://img.icons8.com/color/144/null/python.png",
+      "category": "Backend"
+    },
+    {
+      "name": "C#",
+      "image": "https://img.icons8.com/color/144/null/c-sharp-logo-2.png",
+      "category": "Backend"
+    },
+    {
+      "name": "Spring Boot",
+      "image": "https://img.icons8.com/color/144/spring-logo.png",
+      "category": "Backend"
+    },
+    {
+      "name": "MongoDB",
+      "image": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/null/external-mongodb-a-cross-platform-document-oriented-database-program-logo-color-tal-revivo.png",
+      "category": "Backend"
+    },
+    {
+      "name": "MySQL",
+      "image": "https://img.icons8.com/color/144/null/mysql.png",
+      "category": "Backend"
+    },
+    {
+      "name": "PostgreSQL",
+      "image": "https://img.icons8.com/color/144/postgreesql.png",
+      "category": "Backend"
+    },
+    {
+      "name": "AWS",
+      "image": "https://img.icons8.com/color/144/null/amazon-web-services.png",
       "category": "Backend"
     },
     {
       "name": "GitHub",
       "image": "https://img.icons8.com/material-outlined/96/null/github.png",
+      "category": "Tools"
+    },
+    {
+      "name": "Android Studio",
+      "image": "https://img.icons8.com/color/144/android-studio--v2.png",
+      "category": "Tools"
+    },
+    {
+      "name": "Jira",
+      "image": "https://img.icons8.com/color/144/null/jira.png",
+      "category": "Tools"
+    },
+    {
+      "name": "Vercel",
+      "image": "https://res.cloudinary.com/dl08njl0f/image/upload/v1698142948/gd1ferzh1vbopo15yysy_xgsxnn.svg",
+      "category": "Tools"
+    },
+    {
+      "name": "Netlify",
+      "image": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/null/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png",
+      "category": "Tools"
+    },
+    {
+      "name": "Docker",
+      "image": "https://img.icons8.com/color/144/null/docker.png",
+      "category": "Tools"
+    },
+    {
+      "name": "IntelliJ IDEA",
+      "image": "https://img.icons8.com/color/144/null/intellij-idea.png",
+      "category": "Tools"
+    },
+    {
+      "name": "VS Code",
+      "image": "https://img.icons8.com/color/144/null/visual-studio-code-2019.png",
+      "category": "Tools"
+    },
+    {
+      "name": "Postman",
+      "image": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png",
       "category": "Tools"
     }
   ],
