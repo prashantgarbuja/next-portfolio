@@ -33,7 +33,10 @@ export default async function handler(
       //   sandbox: false,
       // },
       content: {
-        from: { email: process.env.MAIL_FROM as string },
+        from: {
+          email: process.env.MAIL_FROM as string,
+          name: "Portfolio Website",
+        },
         subject: `${name.toUpperCase()} sent you a message from Portfolio`,
         html: msg.replace(/\r\n/g, "<br>"),
       },
