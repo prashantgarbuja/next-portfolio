@@ -1,31 +1,367 @@
 {
+  "about": {
+    "about": "I am a Software developer based in Sydney, Australia. Passionate about technology since childhood, my affinity for computer games ignited my curiosity. Configuring PC settings and devising workarounds to play new games cultivated my passion. My interests extend to reading, budget-dependent travel, and embracing the unfamiliar—a contrast to my introverted childhood. In the tech realm, coding is my canvas. Beginning with C and C++, I progressed to languages like C#, Java, and Python. Java's verbosity maintains my core knowledge. A Bachelor's in Computer Science Engineering in Bangalore fulfilled my dual goals of exploration and tech pursuit. Currently in Sydney, I completed a master's in Information Technology. Engaging in tech seminars and Java meetups broadens my connections with like-minded individuals. Respect for considerate people guides my interactions. Please feel free to contact me to know more about me. :)",
+    "aboutImage": "https://res.cloudinary.com/dl08njl0f/image/upload/v1698161249/2022-08-13-20-51-40-956_tpmqk9.jpg",
+    "aboutImageCaption": "< Create interesting stuff 🚀/>",
+    "callUrl": "https://contact.prashantgarbuja.com/",
+    "resumeUrl": "https://api.prashantgarbuja.com/",
+    "title": "Java Developer"
+  },
+  "educations": [
+    {
+      "degree": "Bachelor of Computer Science Engineering",
+      "desc": [
+        "Achieved First Class with Distinction",
+        "Worked on Text Minning Project using Java",
+        "Developed a game using C++ and OpenGL"
+      ],
+      "duration": "2013 - 2017",
+      "institute": "VTU"
+    },
+    {
+      "degree": "Master of Information Technology",
+      "desc": [
+        "Acquired High Distinction in Application Development with 98% marks using Python",
+        "Specialized on Cyber Security",
+        "Familiar with software development methodologies and project management practices, including Agile and Waterfall methodologies.",
+        "Won first place in Capstone Project",
+        "Developed a Facebook Instant Game using C# and Unity"
+      ],
+      "duration": "2019 - 2021",
+      "institute": "ACU | KOI"
+    }
+  ],
+  "experiences": [
+    {
+      "company": "Sagar Travel & Tours",
+      "desc": [
+        "Manage tickets and bookings.",
+        "Providing customer support.",
+        "Providing online assistance with booking flights and hotels.",
+        "Organize, schedule and manage meetings."
+      ],
+      "duration": "2011 - 2012",
+      "position": "Ticketing Officer"
+    },
+    {
+      "company": "Siddhartha Bank Limited",
+      "desc": [
+        "Installing and configuring computer hardware, software, systems, networks, printers, and scanners.",
+        "Monitoring and maintaining computer systems and networks.",
+        "Responding in a timely manner to service issues and requests.",
+        "Providing technical support across the company (this may be in person or over the phone).",
+        "Setting up accounts for new users.",
+        "Repairing and replacing equipment as necessary."
+      ],
+      "duration": "2017 - 2018",
+      "position": "IT Assistant"
+    },
+    {
+      "company": "Social Welfare Council",
+      "desc": [
+        "Manage the overall technology infrastructure for the Organization including planning, implementation, and management of the software applications and hardware infrastructure that support operations, liaising as relevant with technology service providers.",
+        "Support and contribute to IT-related tasks or projects through the implementation of appropriate technologies and solutions",
+        "Manage support services for the Organization’s IT systems, platforms, and products, including management of IT support technician(s), communicating job expectations, and appraising performance as appropriate.",
+        "Develop and update IT processes and procedures, and ensure they are properly documented.",
+        "Support the procurement process for IT equipment and services.",
+        "Manage Information of the organization and update it on website following the chain of command."
+      ],
+      "duration": "2018 - 2019",
+      "position": "IT Officer"
+    },
+    {
+      "company": "Paxform Pty Ltd.",
+      "desc": [
+        "Daily stand-up meeting with the team to discuss the progress of the project and the tasks for the day.",
+        "Implemented agile methodology to develop the project.",
+        "Test Drive Development (TDD) approach to develop the project.",
+        "Developed different test cases to test the application.",
+        "Dealt with Jira tickets to fix the bugs and add new features to the application.",
+        "Skills: Flutter  · Html · Unit Testing · Agile methodology · TDD · Jira"
+      ],
+      "duration": "2022 - 2022",
+      "position": "Software Developer"
+    },
+    {
+      "company": "ND&Co IT Consultants",
+      "desc": [
+        "Worked with clients – DCS, Blackmore and icare, that leverage ServiceNow platform.",
+        "ServiceNow supports tasks that involve integration, mid-server maintenance, and general support.",
+        "Developing catalogue item.",
+        "Platform upgrades and patching.",
+        "Leveraging ServiceNow platform to automate business processes.",
+        "Automated Testing Framework (ATF), Business rules, UI Policy, UI Actions, Virtual Agent, etc",
+        "ITSM implementor – Request, Service Catalog, Incident, Problem, Change and Release management.",
+        "Skills: ServiceNow CAD · ServiceNow CSA · JavaScript · ATF · Flow Designer · ITSM · Agile methodology · Jira"
+      ],
+      "duration": "2022 -2023",
+      "position": "Application Developer"
+    },
+    {
+      "company": "Freelancer",
+      "desc": [
+        "Diverse Projects: Developed a web application using Spring Boot and ReactJS, a mobile application using Android Studio, and a desktop application using C# and Unity.",
+        "Worked with Clients",
+        "Focus on personal projects.",
+        "Skills: HTML · CSS · JavaScript · Java · Spring · Hibernate · Databases · REST APIs"
+      ],
+      "duration": "2023 - present",
+      "position": "Software Developer"
+    }
+  ],
   "main": {
-    "name": "Prashant Garbuja",
-    "shortDesc": "I focus on developing secure spring based applications that meet the client's requirements, with attention to detail, scalability, and performance.",
-    "titles": [
-      "Java Development",
-      "Spring Development",
-      "API Developement",
-      "Backend Development",
-      "App Development"
-    ],
     "heroImage": "https://res.cloudinary.com/dl08njl0f/image/upload/v1698162032/ava_livlxf.png",
+    "name": "Prashant Garbuja",
+    "shortDesc": "I focus on developing secure Spring-Based Applications that meet the client's requirements, with attention to detail, scalability, and performance. In addition, I am interested in automating the infrastructural pipeline.",
     "techStackImages": [
       "https://img.icons8.com/color/144/000000/spring-logo.png",
       "https://img.icons8.com/color/144/000000/java-coffee-cup-logo--v1.png",
       "https://img.icons8.com/color/144/000000/python.png",
       "https://img.icons8.com/color/144/000000/c-sharp-logo-2.png",
       "https://img.icons8.com/color/144/000000/html-5--v1.png"
+    ],
+    "titles": [
+      "Java Development",
+      "Spring Development",
+      "API Developement",
+      "Backend Development",
+      "App Development"
     ]
   },
-  "about": {
-    "aboutImage": "https://res.cloudinary.com/dl08njl0f/image/upload/v1698161249/2022-08-13-20-51-40-956_tpmqk9.jpg",
-    "aboutImageCaption": "< Create interesting stuff 🚀/>",
-    "title": "Java Developer",
-    "about": "I am a Software developer based in Sydney, Australia. Passionate about technology since childhood, my affinity for computer games ignited my curiosity. Configuring PC settings and devising workarounds to play new games cultivated my passion. My interests extend to reading, budget-dependent travel, and embracing the unfamiliar—a contrast to my introverted childhood. In the tech realm, coding is my canvas. Beginning with C and C++, I progressed to languages like C#, Java, and Python. Java's verbosity maintains my core knowledge. A Bachelor's in Computer Science Engineering in Bangalore fulfilled my dual goals of exploration and tech pursuit. Currently in Sydney, I completed a master's in Information Technology. Engaging in tech seminars and Java meetups broadens my connections with like-minded individuals. Respect for considerate people guides my interactions. Please feel free to contact me to know more about me. :)",
-    "callUrl": "https://contact.prashantgarbuja.com/",
-    "resumeUrl": "https://api.prashantgarbuja.com/"
-  },
+  "projects": [
+    {
+      "category": "Spring-Boot",
+      "image": "https://res.cloudinary.com/dl08njl0f/image/upload/v1698163956/movie_api_fusion_ydj1zg.png",
+      "links": {
+        "code": "https://github.com/prashantgarbuja/movie-api-fusion",
+        "video": "",
+        "visit": ""
+      },
+      "name": "Movie API Fusion",
+      "techstack": "Spring-Boot, Java, Postgres, MongoDB, Keycloak(PKCE OAuth 2.0), OMDB API, ReactJS"
+    },
+    {
+      "category": "Spring-Boot",
+      "image": "https://res.cloudinary.com/dl08njl0f/image/upload/v1698166828/ElasticSearch_nfgl1j.png",
+      "links": {
+        "code": "https://github.com/prashantgarbuja/Elasticsearch-Amazon-Products",
+        "video": "",
+        "visit": ""
+      },
+      "name": "ElasticSearch Amazon Products",
+      "techstack": "Spring-Boot, Java, ElasticSearch, Test container"
+    },
+    {
+      "category": "Spring-Boot",
+      "image": "https://res.cloudinary.com/dl08njl0f/image/upload/v1698166721/Kafka_b4wyhn.png",
+      "links": {
+        "code": "https://github.com/prashantgarbuja/Amazon-Products-Kafka-SpringBoot",
+        "video": "",
+        "visit": ""
+      },
+      "name": "Kafka Amazon Products",
+      "techstack": "Spring-Boot, Java, Kafka, Apache Maven, Docker, Git"
+    },
+    {
+      "category": "Spring-Boot",
+      "image": "https://res.cloudinary.com/dl08njl0f/image/upload/v1698165885/ResumeAPI_r6ulcf.png",
+      "links": {
+        "code": "https://github.com/prashantgarbuja/Resume-API",
+        "video": "",
+        "visit": "https://api.prashantgarbuja.com/"
+      },
+      "name": "Resume API",
+      "techstack": "Spring-Boot, Java, JPA, Thymeleaf, Hibernate, Swagger OpenAPI, Supabase(Postgres)"
+    },
+    {
+      "category": "Android Application",
+      "image": "https://res.cloudinary.com/dl08njl0f/image/upload/v1698168411/myChat_n4dppy.png",
+      "links": {
+        "code": "https://github.com/prashantgarbuja/mychat",
+        "video": "",
+        "visit": ""
+      },
+      "name": "myChat",
+      "techstack": "Java, Android Studio, Firebase"
+    },
+    {
+      "category": "Misc",
+      "image": "https://res.cloudinary.com/dl08njl0f/image/upload/v1698166130/AutoTweet_eehrkn.png",
+      "links": {
+        "code": "https://github.com/prashantgarbuja/Auto_tweet",
+        "video": "",
+        "visit": "https://twitter.com/garbuja_p"
+      },
+      "name": "Auto Tweet Quote",
+      "techstack": "Python, Twitter API, Quotable API, Github Action"
+    },
+    {
+      "category": "Misc",
+      "image": "https://res.cloudinary.com/dl08njl0f/image/upload/v1700324336/NoteApp_cb2d6q.png",
+      "links": {
+        "code": "https://github.com/prashantgarbuja/notes-app",
+        "video": "",
+        "visit": "https://prashantgarbuja.github.io/notes-app/"
+      },
+      "name": "Markdown Note App",
+      "techstack": "React, CSS, JSX"
+    },
+    {
+      "category": "Misc",
+      "image": "https://res.cloudinary.com/dl08njl0f/image/upload/v1700324336/Tenzies_fjmv2p.png",
+      "links": {
+        "code": "https://github.com/prashantgarbuja/tenzies-app",
+        "video": "",
+        "visit": "https://prashantgarbuja.github.io/tenzies-app/"
+      },
+      "name": "Tenzies Game",
+      "techstack": "React, CSS, JSX"
+    },
+    {
+      "category": "Misc",
+      "image": "https://res.cloudinary.com/dl08njl0f/image/upload/v1698165416/GoogleTrends_njk9ag.png",
+      "links": {
+        "code": "https://github.com/prashantgarbuja/web_scrap",
+        "video": "",
+        "visit": ""
+      },
+      "name": "Web Scraper",
+      "techstack": "Python, Selenium, BeautifulSoup"
+    },
+    {
+      "category": "Spring-Boot",
+      "image": "https://res.cloudinary.com/dl08njl0f/image/upload/v1698163947/musiclify_tprfyp.png",
+      "links": {
+        "code": "https://github.com/prashantgarbuja/musiclify",
+        "video": "https://res.cloudinary.com/dl08njl0f/video/upload/v1698467204/sample_pe4jfq.mp4",
+        "visit": "https://musiclify.prashantgarbuja.com/"
+      },
+      "name": "Musiclify",
+      "techstack": "Spring-Boot, Java, Spotify API, Maven, Docker"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Frontend",
+      "image": "https://img.icons8.com/color/144/null/javascript--v1.png",
+      "name": "JavaScript"
+    },
+    {
+      "category": "Frontend",
+      "image": "https://img.icons8.com/color/144/null/react-native.png",
+      "name": "ReactJs"
+    },
+    {
+      "category": "Frontend",
+      "image": "https://img.icons8.com/color/144/null/bootstrap.png",
+      "name": "Bootstrap"
+    },
+    {
+      "category": "Frontend",
+      "image": "https://img.icons8.com/color/144/null/html-5.png",
+      "name": "Html"
+    },
+    {
+      "category": "Frontend",
+      "image": "https://img.icons8.com/color/144/null/css3.png",
+      "name": "Css"
+    },
+    {
+      "category": "Frontend",
+      "image": "https://img.icons8.com/color/144/null/angularjs.png",
+      "name": "AngularJs"
+    },
+    {
+      "category": "Frontend",
+      "image": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/null/external-jquery-is-a-javascript-library-designed-to-simplify-html-logo-shadow-tal-revivo.png",
+      "name": "JQuery"
+    },
+    {
+      "category": "Backend",
+      "image": "https://img.icons8.com/color/144/null/java-coffee-cup-logo--v1.png",
+      "name": "Java"
+    },
+    {
+      "category": "Backend",
+      "image": "https://img.icons8.com/color/144/null/python.png",
+      "name": "Python"
+    },
+    {
+      "category": "Backend",
+      "image": "https://img.icons8.com/color/144/null/c-sharp-logo-2.png",
+      "name": "C#"
+    },
+    {
+      "category": "Backend",
+      "image": "https://img.icons8.com/color/144/spring-logo.png",
+      "name": "Spring Boot"
+    },
+    {
+      "category": "Backend",
+      "image": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/null/external-mongodb-a-cross-platform-document-oriented-database-program-logo-color-tal-revivo.png",
+      "name": "MongoDB"
+    },
+    {
+      "category": "Backend",
+      "image": "https://img.icons8.com/color/144/null/mysql.png",
+      "name": "MySQL"
+    },
+    {
+      "category": "Backend",
+      "image": "https://img.icons8.com/color/144/postgreesql.png",
+      "name": "PostgreSQL"
+    },
+    {
+      "category": "Backend",
+      "image": "https://img.icons8.com/color/144/null/amazon-web-services.png",
+      "name": "AWS"
+    },
+    {
+      "category": "Tools",
+      "image": "https://img.icons8.com/material-outlined/96/null/github.png",
+      "name": "GitHub"
+    },
+    {
+      "category": "Tools",
+      "image": "https://img.icons8.com/color/144/android-studio--v2.png",
+      "name": "Android Studio"
+    },
+    {
+      "category": "Tools",
+      "image": "https://img.icons8.com/color/144/null/jira.png",
+      "name": "Jira"
+    },
+    {
+      "category": "Tools",
+      "image": "https://res.cloudinary.com/dl08njl0f/image/upload/v1698142948/gd1ferzh1vbopo15yysy_xgsxnn.svg",
+      "name": "Vercel"
+    },
+    {
+      "category": "Tools",
+      "image": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/null/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png",
+      "name": "Netlify"
+    },
+    {
+      "category": "Tools",
+      "image": "https://img.icons8.com/color/144/null/docker.png",
+      "name": "Docker"
+    },
+    {
+      "category": "Tools",
+      "image": "https://img.icons8.com/color/144/null/intellij-idea.png",
+      "name": "IntelliJ IDEA"
+    },
+    {
+      "category": "Tools",
+      "image": "https://img.icons8.com/color/144/null/visual-studio-code-2019.png",
+      "name": "VS Code"
+    },
+    {
+      "category": "Tools",
+      "image": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png",
+      "name": "Postman"
+    }
+  ],
   "socials": [
     {
       "icon": "FaLinkedin",
@@ -42,320 +378,6 @@
     {
       "icon": "FaTwitter",
       "link": "https://twitter.com/garbuja_p"
-    }
-  ],
-  "skills": [
-    {
-      "name": "JavaScript",
-      "image": "https://img.icons8.com/color/144/null/javascript--v1.png",
-      "category": "Frontend"
-    },
-    {
-      "name": "ReactJs",
-      "image": "https://img.icons8.com/color/144/null/react-native.png",
-      "category": "Frontend"
-    },
-    {
-      "name": "Bootstrap",
-      "image": "https://img.icons8.com/color/144/null/bootstrap.png",
-      "category": "Frontend"
-    },
-    {
-      "name": "Html",
-      "image": "https://img.icons8.com/color/144/null/html-5.png",
-      "category": "Frontend"
-    },
-    {
-      "name": "Css",
-      "image": "https://img.icons8.com/color/144/null/css3.png",
-      "category": "Frontend"
-    },
-    {
-      "name": "AngularJs",
-      "image": "https://img.icons8.com/color/144/null/angularjs.png",
-      "category": "Frontend"
-    },
-    {
-      "name": "JQuery",
-      "image": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/null/external-jquery-is-a-javascript-library-designed-to-simplify-html-logo-shadow-tal-revivo.png",
-      "category": "Frontend"
-    },
-    {
-      "name": "Java",
-      "image": "https://img.icons8.com/color/144/null/java-coffee-cup-logo--v1.png",
-      "category": "Backend"
-    },
-    {
-      "name": "Python",
-      "image": "https://img.icons8.com/color/144/null/python.png",
-      "category": "Backend"
-    },
-    {
-      "name": "C#",
-      "image": "https://img.icons8.com/color/144/null/c-sharp-logo-2.png",
-      "category": "Backend"
-    },
-    {
-      "name": "Spring Boot",
-      "image": "https://img.icons8.com/color/144/spring-logo.png",
-      "category": "Backend"
-    },
-    {
-      "name": "MongoDB",
-      "image": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/null/external-mongodb-a-cross-platform-document-oriented-database-program-logo-color-tal-revivo.png",
-      "category": "Backend"
-    },
-    {
-      "name": "MySQL",
-      "image": "https://img.icons8.com/color/144/null/mysql.png",
-      "category": "Backend"
-    },
-    {
-      "name": "PostgreSQL",
-      "image": "https://img.icons8.com/color/144/postgreesql.png",
-      "category": "Backend"
-    },
-    {
-      "name": "AWS",
-      "image": "https://img.icons8.com/color/144/null/amazon-web-services.png",
-      "category": "Backend"
-    },
-    {
-      "name": "GitHub",
-      "image": "https://img.icons8.com/material-outlined/96/null/github.png",
-      "category": "Tools"
-    },
-    {
-      "name": "Android Studio",
-      "image": "https://img.icons8.com/color/144/android-studio--v2.png",
-      "category": "Tools"
-    },
-    {
-      "name": "Jira",
-      "image": "https://img.icons8.com/color/144/null/jira.png",
-      "category": "Tools"
-    },
-    {
-      "name": "Vercel",
-      "image": "https://res.cloudinary.com/dl08njl0f/image/upload/v1698142948/gd1ferzh1vbopo15yysy_xgsxnn.svg",
-      "category": "Tools"
-    },
-    {
-      "name": "Netlify",
-      "image": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/null/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png",
-      "category": "Tools"
-    },
-    {
-      "name": "Docker",
-      "image": "https://img.icons8.com/color/144/null/docker.png",
-      "category": "Tools"
-    },
-    {
-      "name": "IntelliJ IDEA",
-      "image": "https://img.icons8.com/color/144/null/intellij-idea.png",
-      "category": "Tools"
-    },
-    {
-      "name": "VS Code",
-      "image": "https://img.icons8.com/color/144/null/visual-studio-code-2019.png",
-      "category": "Tools"
-    },
-    {
-      "name": "Postman",
-      "image": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png",
-      "category": "Tools"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Movie API Fusion",
-      "techstack": "Spring-Boot, Java, Postgres, MongoDB, Keycloak(PKCE OAuth 2.0), OMDB API, ReactJS",
-      "category": "Spring-Boot",
-      "image": "https://res.cloudinary.com/dl08njl0f/image/upload/v1698163956/movie_api_fusion_ydj1zg.png",
-      "links": {
-        "code": "https://github.com/prashantgarbuja/movie-api-fusion",
-        "video": "",
-        "visit": ""
-      }
-    },
-    {
-      "name": "ElasticSearch Amazon Products",
-      "techstack": "Spring-Boot, Java, ElasticSearch, Test container",
-      "category": "Spring-Boot",
-      "image": "https://res.cloudinary.com/dl08njl0f/image/upload/v1698166828/ElasticSearch_nfgl1j.png",
-      "links": {
-        "code": "https://github.com/prashantgarbuja/Elasticsearch-Amazon-Products",
-        "video": "",
-        "visit": ""
-      }
-    },
-    {
-      "name": "Kafka Amazon Products",
-      "techstack": "Spring-Boot, Java, Kafka, Apache Maven, Docker, Git",
-      "category": "Spring-Boot",
-      "image": "https://res.cloudinary.com/dl08njl0f/image/upload/v1698166721/Kafka_b4wyhn.png",
-      "links": {
-        "code": "https://github.com/prashantgarbuja/Amazon-Products-Kafka-SpringBoot",
-        "video": "",
-        "visit": ""
-      }
-    },
-    {
-      "name": "Resume API",
-      "techstack": "Spring-Boot, Java, JPA, Thymeleaf, Hibernate, Swagger OpenAPI, Supabase(Postgres)",
-      "category": "Spring-Boot",
-      "image": "https://res.cloudinary.com/dl08njl0f/image/upload/v1698165885/ResumeAPI_r6ulcf.png",
-      "links": {
-        "code": "https://github.com/prashantgarbuja/Resume-API",
-        "video": "",
-        "visit": "https://api.prashantgarbuja.com/"
-      }
-    },
-    {
-      "name": "myChat",
-      "techstack": "Java, Android Studio, Firebase",
-      "category": "Android Application",
-      "image": "https://res.cloudinary.com/dl08njl0f/image/upload/v1698168411/myChat_n4dppy.png",
-      "links": {
-        "code": "https://github.com/prashantgarbuja/mychat",
-        "video": "",
-        "visit": ""
-      }
-    },
-    {
-      "name": "Auto Tweet Quote",
-      "techstack": "Python, Twitter API, Quotable API, Github Action",
-      "category": "Misc",
-      "image": "https://res.cloudinary.com/dl08njl0f/image/upload/v1698166130/AutoTweet_eehrkn.png",
-      "links": {
-        "code": "https://github.com/prashantgarbuja/Auto_tweet",
-        "video": "",
-        "visit": "https://twitter.com/garbuja_p"
-      }
-    },
-    {
-      "name": "Web Scraper",
-      "techstack": "Python, Selenium, BeautifulSoup",
-      "category": "Misc",
-      "image": "https://res.cloudinary.com/dl08njl0f/image/upload/v1698165416/GoogleTrends_njk9ag.png",
-      "links": {
-        "code": "https://github.com/prashantgarbuja/web_scrap",
-        "video": "",
-        "visit": ""
-      }
-    },
-    {
-      "name": "Musiclify",
-      "techstack": "Spring-Boot, Java, Spotify API, Maven, Docker",
-      "category": "Spring-Boot",
-      "image": "https://res.cloudinary.com/dl08njl0f/image/upload/v1698163947/musiclify_tprfyp.png",
-      "links": {
-        "code": "https://github.com/prashantgarbuja/musiclify",
-        "video": "",
-        "visit": "https://musiclify.prashantgarbuja.com/"
-      }
-    }
-  ],
-  "educations": [
-    {
-      "institute": "VTU",
-      "degree": "Bachelor of Computer Science Engineering",
-      "duration": "2013 - 2017",
-      "desc": [
-        "Achieved First Class with Distinction",
-        "Worked on Text Minning Project using Java",
-        "Developed a game using C++ and OpenGL"
-      ]
-    },
-    {
-      "institute": "ACU | KOI",
-      "degree": "Master of Information Technology",
-      "duration": "2019 - 2021",
-      "desc": [
-        "Acquired High Distinction in Application Development with 98% marks using Python",
-        "Specialized on Cyber Security",
-        "Familiar with software development methodologies and project management practices, including Agile and Waterfall methodologies.",
-        "Won first place in Capstone Project",
-        "Developed a Facebook Instant Game using C# and Unity"
-      ]
-    }
-  ],
-  "experiences": [
-    {
-      "company": "Sagar Travel & Tours",
-      "position": "Ticketing Officer",
-      "duration": "2011 - 2012",
-      "desc": [
-        "Manage tickets and bookings.",
-        "Providing customer support.",
-        "Providing online assistance with booking flights and hotels.",
-        "Organize, schedule and manage meetings."
-      ]
-    },
-    {
-      "company": "Siddhartha Bank Limited",
-      "position": "IT Assistant",
-      "duration": "2017 - 2018",
-      "desc": [
-        "Installing and configuring computer hardware, software, systems, networks, printers, and scanners.",
-        "Monitoring and maintaining computer systems and networks.",
-        "Responding in a timely manner to service issues and requests.",
-        "Providing technical support across the company (this may be in person or over the phone).",
-        "Setting up accounts for new users.",
-        "Repairing and replacing equipment as necessary."
-      ]
-    },
-    {
-      "company": "Social Welfare Council",
-      "position": "IT Officer",
-      "duration": "2018 - 2019",
-      "desc": [
-        "Manage the overall technology infrastructure for the Organization including planning, implementation, and management of the software applications and hardware infrastructure that support operations, liaising as relevant with technology service providers.",
-        "Support and contribute to IT-related tasks or projects through the implementation of appropriate technologies and solutions",
-        "Manage support services for the Organization’s IT systems, platforms, and products, including management of IT support technician(s), communicating job expectations, and appraising performance as appropriate.",
-        "Develop and update IT processes and procedures, and ensure they are properly documented.",
-        "Support the procurement process for IT equipment and services.",
-        "Manage Information of the organization and update it on website following the chain of command."
-      ]
-    },
-    {
-      "company": "Paxform Pty Ltd.",
-      "position": "Software Developer",
-      "duration": "2022 - 2022",
-      "desc": [
-        "Daily stand-up meeting with the team to discuss the progress of the project and the tasks for the day.",
-        "Implemented agile methodology to develop the project.",
-        "Test Drive Development (TDD) approach to develop the project.",
-        "Developed different test cases to test the application.",
-        "Dealt with Jira tickets to fix the bugs and add new features to the application.",
-        "Skills: Flutter  · Html · Unit Testing · Agile methodology · TDD · Jira"
-      ]
-    },
-    {
-      "company": "ND&Co IT Consultants",
-      "position": "Application Developer",
-      "duration": "2021 -2023",
-      "desc": [
-        "Worked with clients – DCS, Blackmore and icare, that leverage ServiceNow platform.",
-        "ServiceNow supports tasks that involve integration, mid-server maintenance, and general support.",
-        "Developing catalogue item.",
-        "Platform upgrades and patching.",
-        "Leveraging ServiceNow platform to automate business processes.",
-        "Automated Testing Framework (ATF), Business rules, UI Policy, UI Actions, Virtual Agent, etc",
-        "ITSM implementor – Request, Service Catalog, Incident, Problem, Change and Release management.",
-        "Skills: ServiceNow CAD · ServiceNow CSA · JavaScript · ATF · Flow Designer · ITSM · Agile methodology · Jira"
-      ]
-    },
-    {
-      "company": "Freelancer",
-      "position": "Software Developer",
-      "duration": "2023 - present",
-      "desc": [
-        "Diverse Projects: Developed a web application using Spring Boot and ReactJS, a mobile application using Android Studio, and a desktop application using C# and Unity.",
-        "Worked with Clients",
-        "Focus on personal projects.",
-        "Skills: HTML · CSS · JavaScript · Java · Spring · Hibernate · Databases · REST APIs"
-      ]
     }
   ]
 }
