@@ -1,4 +1,5 @@
 "use client";
+import { useState, useEffect } from "react";
 import { data } from "@/types/main";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
