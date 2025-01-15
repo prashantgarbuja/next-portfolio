@@ -9,12 +9,41 @@ import Experiences from "@/components/experiences/Experiences";
 import Contact from "@/components/Contact";
 import Header from "./Header";
 import Footer from "./Footer";
+import ScrollToTopButton from "./ScrollToTop";
 
 interface Props {
   data: data;
 }
 
 const HomePage = ({ data }: Props) => {
+  const [showScroll, setShowScroll] = useState(false);
+
+  const [chatVisible, setChatVisible] = useState(false);
+
+  const toggleChat = () => {
+    setChatVisible((prev) => !prev);
+  };
+  // Handle scroll event to show/hide the sticky hook
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 100) {
+        setShowScroll(true);
+      } else {
+        setShowScroll(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  // Scroll to top function
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <>
       <Header logo={data.main.name} />
@@ -29,6 +58,7 @@ const HomePage = ({ data }: Props) => {
       />
       <Contact />
       <Footer socials={data.socials} name={data.main.name} />
+      <ScrollToTopButton showScroll={showScroll} onClick={scrollToTop} />
     </>
   );
 };
