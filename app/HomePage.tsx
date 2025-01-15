@@ -11,6 +11,7 @@ import Contact from "@/components/Contact";
 import Header from "./Header";
 import Footer from "./Footer";
 import ScrollToTopButton from "./ScrollToTop";
+import Chatbot from "./Chatbot";
 
 interface Props {
   data: data;
@@ -60,6 +61,7 @@ const HomePage = ({ data }: Props) => {
       <Contact />
       <Footer socials={data.socials} name={data.main.name} />
       <ScrollToTopButton showScroll={showScroll} onClick={scrollToTop} />
+      <Chatbot />
     </>
   );
 };
