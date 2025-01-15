@@ -14,11 +14,11 @@ const ScrollToTop: React.FC<ScrollToTopProps> = ({ showScroll, onClick }) => {
       style={styles.button}
       onMouseEnter={(e) => {
         e.currentTarget.style.transform = "scale(1.1)";
-        e.currentTarget.style.boxShadow = styles.hover.boxShadow;
+        e.currentTarget.style.boxShadow = styles.hover.boxShadow || "";
       }}
       onMouseLeave={(e) => {
         e.currentTarget.style.transform = "scale(1)";
-        e.currentTarget.style.boxShadow = styles.button.boxShadow;
+        e.currentTarget.style.boxShadow = styles.button.boxShadow || "";
       }}
     >
       <svg
@@ -37,7 +37,11 @@ const ScrollToTop: React.FC<ScrollToTopProps> = ({ showScroll, onClick }) => {
   );
 };
 
-const styles = {
+const styles: {
+  button: React.CSSProperties;
+  hover: React.CSSProperties;
+  icon: React.CSSProperties;
+} = {
   button: {
     position: "fixed",
     bottom: "100px",
