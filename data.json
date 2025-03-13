@@ -230,10 +230,10 @@
     },
     {
       "category": "Spring-Boot",
-      "image": "https://res.cloudinary.com/dl08njl0f/image/upload/v1698163947/musiclify_tprfyp.png",
+      "image": "https://res.cloudinary.com/dl08njl0f/image/upload/v1741830842/musiclify_index.png",
       "links": {
-        "code": "https://github.com/prashantgarbuja/musiclify",
-        "video": "https://res.cloudinary.com/dl08njl0f/video/upload/v1698467204/sample_pe4jfq.mp4",
+        "code": "https://github.com/prashantgarbuja/musiclify_app",
+        "video": "",
         "visit": "https://musiclify.prashantgarbuja.com/"
       },
       "name": "Musiclify",
