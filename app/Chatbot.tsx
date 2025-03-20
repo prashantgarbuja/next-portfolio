@@ -50,10 +50,10 @@ const Chatbot: React.FC<ChatbotProps> = ({
 
   // Generate or retrieve session ID
   const getSessionId = () => {
-    let sessionId = localStorage.getItem("-chat-session");
+    let sessionId = localStorage.getItem("chat-session");
     if (!sessionId) {
       sessionId = Math.random().toString(36).substring(2, 15);
-      localStorage.setItem("-chat-session", sessionId);
+      localStorage.setItem("chat-session", sessionId);
     }
     return sessionId;
   };
@@ -61,7 +61,7 @@ const Chatbot: React.FC<ChatbotProps> = ({
   const handleSendMessage = async () => {
     if (!inputMessage.trim()) return;
 
-    const userMessage = {
+    const userMessage: Message = {
       text: inputMessage,
       isBot: false,
       timestamp: new Date(),
@@ -72,7 +72,6 @@ const Chatbot: React.FC<ChatbotProps> = ({
     setIsLoading(true);
 
     try {
-      // Create a local proxy API endpoint
       const response = await fetch("/api/chatbot", {
         method: "POST",
         headers: {
@@ -85,33 +84,84 @@ const Chatbot: React.FC<ChatbotProps> = ({
         }),
       });
 
-      if (response.ok) {
-        const data = await response.json();
-        // Extract the 'output' field from the first array element
-        const botMessageText =
-          Array.isArray(data) && data[0]?.output
-            ? data[0].output
-            : "Sorry, I couldn't process your request.";
-        const botMessage = {
-          text: botMessageText,
-          isBot: true,
-          timestamp: new Date(),
-        };
-        setMessages((prevMessages) => [...prevMessages, botMessage]);
-      } else {
-        throw new Error("Failed to get response");
+      if (!response.ok) {
+        throw new Error(`Failed to initiate request: ${response.statusText}`);
       }
+
+      const { requestId } = await response.json();
+
+      // Show a processing message
+      const processingMessage: Message = {
+        text: "Processing your request...",
+        isBot: true,
+        timestamp: new Date(),
+      };
+      setMessages((prevMessages) => [...prevMessages, processingMessage]);
+
+      // Poll for the response
+      const pollForResponse = async () => {
+        const maxAttempts = 30; // 60 seconds total (2s * 30)
+        let attempts = 0;
+
+        const pollInterval = setInterval(async () => {
+          attempts++;
+          try {
+            const pollResponse = await fetch(
+              `/api/check-response?requestId=${requestId}`
+            );
+            const pollData = await pollResponse.json();
+
+            if (
+              pollResponse.status === 200 &&
+              pollData.message !== "Processing"
+            ) {
+              clearInterval(pollInterval);
+              const botMessage: Message = {
+                text: pollData.message,
+                isBot: true,
+                timestamp: new Date(),
+              };
+              setMessages((prevMessages) =>
+                prevMessages.map((msg) =>
+                  msg.text === "Processing your request..." && msg.isBot
+                    ? botMessage
+                    : msg
+                )
+              );
+              setIsLoading(false);
+            } else if (attempts >= maxAttempts) {
+              clearInterval(pollInterval);
+              const timeoutMessage: Message = {
+                text: "Request took too long. Please try again.",
+                isBot: true,
+                timestamp: new Date(),
+              };
+              setMessages((prevMessages) => [...prevMessages, timeoutMessage]);
+              setIsLoading(false);
+            }
+          } catch (pollError) {
+            console.error("Polling error:", pollError);
+            clearInterval(pollInterval);
+            const errorMessage: Message = {
+              text: "Error while waiting for response. Please try again.",
+              isBot: true,
+              timestamp: new Date(),
+            };
+            setMessages((prevMessages) => [...prevMessages, errorMessage]);
+            setIsLoading(false);
+          }
+        }, 2000); // Poll every 2 seconds
+      };
+
+      pollForResponse();
     } catch (error) {
       console.error("Error sending message:", error);
-
-      // Add error message
-      const errorMessage = {
-        text: "Sorry, there was an error connecting to the chatbot. Please try again later.",
+      const errorMessage: Message = {
+        text: "Sorry, there was an error connecting to the chatbot. Please try again.",
         isBot: true,
         timestamp: new Date(),
       };
       setMessages((prevMessages) => [...prevMessages, errorMessage]);
-    } finally {
       setIsLoading(false);
     }
   };
