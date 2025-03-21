@@ -262,7 +262,7 @@ const Chatbot: React.FC<ChatbotProps> = ({
               theme === "dark"
                 ? "border-t border-gray-700"
                 : "border-t border-gray-200"
-            } flex items-center`}
+            } flex items-center space-x-2`}
           >
             <input
               type="text"
@@ -270,7 +270,7 @@ const Chatbot: React.FC<ChatbotProps> = ({
               onChange={(e) => setInputMessage(e.target.value)}
               onKeyPress={(e) => e.key === "Enter" && handleSendMessage()}
               placeholder="Type your message..."
-              className={`flex-1 p-2 rounded-md focus:outline-none ${
+              className={`flex-1 min-w-0 p-2 rounded-md focus:outline-none ${
                 theme === "dark"
                   ? "bg-gray-700 text-white border-gray-600"
                   : "bg-gray-100 text-gray-800 border-gray-200"
@@ -278,11 +278,12 @@ const Chatbot: React.FC<ChatbotProps> = ({
             />
             <button
               onClick={handleSendMessage}
-              className={`ml-2 p-2 rounded-md ${
+              className={`flex-shrink-0 w-10 h-10 rounded-md ${
                 theme === "dark"
                   ? "bg-violet-700 hover:bg-violet-800"
                   : "bg-violet-600 hover:bg-violet-700"
               } text-white flex items-center justify-center transition-colors duration-300`}
+              aria-label="Send message"
             >
               <FiSend size={18} />
             </button>
