@@ -80,7 +80,7 @@ Here are the steps to run the portfolio locally.
 5. Create an `.env.local` file in the root directory, and add the following variables with your firebase config:
    ```
    SENDGRID_API_KEY=XXXXXXXX
-   NEXT_PUBLIC_FIREBASE_DATABASE_URL=XXXXXXXXXX
+   FIREBASE_DATABASE_URL=XXXXXXXXXX
    MAIL_FROM=YOUR_MAIL_ID
    MAIL_TO=YOUR_MAIL_ID
    ```
@@ -110,7 +110,7 @@ Here are the steps to run the portfolio locally.
 3. Add the following environment variables in the Vercel dashboard:
    ```
    SENDGRID_API_KEY=XXXXXXXX
-   NEXT_PUBLIC_FIREBASE_DATABASE_URL=XXXXXXXXXX
+   FIREBASE_DATABASE_URL=XXXXXXXXXX
    MAIL_FROM=YOUR_MAIL_ID
    MAIL_TO=YOUR_MAIL_ID
    ```
